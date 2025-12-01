@@ -1,32 +1,33 @@
 import heroImg from "../images/hero-image.png"
-import amazonImg from "../images/amazon.png"
-import flipkartImg from "../images/flipkart.png"
-const HeroSection=()=>{
-    return (
-      <main className="hero container">
-        <div className="hero-content">
-          <p>
-            YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR
-            SHOES.YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR
-            SHOES.
-          </p>
-          <div className="hero-btn">
-            <button>Shop Now</button>
-            <button className="secondary-section">Categaory</button>
-          </div>
-          <div className="shopping">
-            <p>Available On</p>
+import flipkart from "../images/flipkart.png"
+import amazon from "../images/amazon.png"
 
-            <div className="brand-icons">
-              <img src={amazonImg} alt="amazon-logo" />
-              <img src={flipkartImg} alt="flipkart-logo" />
-            </div>
+const Hero=()=>{
+  return (
+    <div className="heroContainer">
+      <div className="content-hero">
+        <h1>YOUR FEET DESERVE THE BEST</h1>
+        <p className="msg-section">
+          YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR
+          SHOES.YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR
+          SHOES.
+        </p>
+        <div className="heroContent-btns">
+          <button className="primary-btn2">Shop Now</button>
+          <button className="secondary-btn">Category</button>
+        </div>
+        <div className="hero-logo-container">
+          <small>Also Available On</small>
+          <div className="hero-logos">
+            <img src={flipkart} alt="flipkart" />
+            <img src={amazon} alt="amazon" />
           </div>
         </div>
-        <div className="hero-image">
-          <img src={heroImg} alt="flipkart-logo" />
-        </div>
-      </main>
-    );
+      </div>
+      <div className="hero-img">
+        <img src={heroImg} alt="hero-Img" />
+      </div>
+    </div>
+  );
 }
-export default HeroSection
+export default Hero;

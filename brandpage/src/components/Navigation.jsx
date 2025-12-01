@@ -1,10 +1,10 @@
-import reactLogo from "../images/brand_logo.png";
-const Navigation = () => {
-  return (
-    <div className="container">
+import logoImg from "../images/brand_logo.png";
+const Navigation=()=>{
+  return(
+    <div>
       <nav>
-        <div className="logo">
-          <img src={reactLogo} alt="logo" />
+        <div className="logoContainer">
+          <img src={logoImg} alt="logo" />
         </div>
         <ul>
           <li href="#">Menu</li>
@@ -12,9 +12,9 @@ const Navigation = () => {
           <li href="#">About</li>
           <li href="#">Contact</li>
         </ul>
-        <button>Login</button>
+        <button className="primary-btn">Login</button>
       </nav>
     </div>
-  );
-};
+  )
+}
 export default Navigation;

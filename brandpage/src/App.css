@@ -1,83 +1,87 @@
-#root {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+#root{
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 0;
-  margin: 0;
   text-align: center;
-  --red:#d01c28;
-  --grey:#2e2e2e;
-}
-body{
+  --red:#D01C28;
+  --grey:#5A5959;
   font-family: "Poppins",sans-serif;
-  
-}
-button{
-  all: unset;
-  padding: 6px,16px;
-  background: var(--red);
-  height: 32px;
-  color: white;
-  font-weight: 500;
-}
-.container{
-  max-width: 1280px;
-  margin: 0 auto;
-}
-.hero-content{
-  display: flex;
-  flex-direction: column;
-  gap: 36px;
+
+
 }
 nav{
+  height: 72px;
   display: flex;
   justify-content: space-between;
-  max-width: 1280px;
-  margin: 0 auto;
-  height: 72px;
-  /* background-color: #2e2e2e; */
+  font-size: 16px;
+  font-weight: 600;
+
 }
-nav ul{
-  display: flex;
+ul{
   list-style: none;
-  gap:24px;
+  display: flex;
+  gap: 24px;
+}
+.primary-btn{
+  background-color: var(--red);
+  border: none;
+  margin:14px 0px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.heroContainer{
+  display: flex;
+  margin:0 auto;
+ margin: 20px 150px;
+gap: ;
 
 }
-.hero{
-  display: flex;
-align-items: center;
-height: 100vh-72px;
+.heroContainer h1{
+font-weight: 800;
+font-size: 108px;
+line-height: 102px;
 }
-.hero h1{
-  font-weight: 800;
-  line-height: 102px;
-  font-size: 108px;
- 
-}
-.hero p{
-   color: var(--grey);
-   font-weight: 600;
-   max-width: 400px;
-}
-.hero-btn{
-  display: flex;
-  gap: 40px;
-  
-}
-.hero-btn button{
-  font-size: 24px;
-  
-}
-.secondary-section{
-  background: transparent;
+.heroContainer .msg-section{
+  max-width: 400px;
   color: var(--grey);
-  border: 1px solid gray;
 
 }
-.shopping p{
-  font-size: 14px;
-  margin-bottom: 8px;
+.hero-img{
+  padding: 60px;
 }
-.brand-icons{
+.heroContent-btns{
   display: flex;
+  gap: 32px;
+  max-width: 330px;
+}
 
+.secondary-btn{
+  color: var(--grey);
+  border: 1px solid #000000;
+  font-weight: 800;
+}
+.primary-btn2{
+  background-color: var(--red);
+  border: none;
+  /* margin:14px 0px; */
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+.hero-logo-container{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 1rem 0;
+color: var(--grey);
+}
+.hero-logos{
+  display: flex;
+  gap: 20px;
 }
