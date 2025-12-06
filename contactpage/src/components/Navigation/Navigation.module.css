@@ -1,0 +1,7 @@
+
+
+.naviagtion ul{
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}

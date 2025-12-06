@@ -13,7 +13,7 @@ const Hero=()=>{
           SHOES.
         </p>
         <div className="heroContent-btns">
-          <button className="primary-btn2">Shop Now</button>
+          <button className=" ">Shop Now</button>
           <button className="secondary-btn">Category</button>
         </div>
         <div className="hero-logo-container">

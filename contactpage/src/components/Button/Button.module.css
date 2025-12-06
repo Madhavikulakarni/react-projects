@@ -1,0 +1,13 @@
+.btn{
+    padding: 10px 18px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.topBtn{
+    display: flex;
+    gap: 32px;
+    margin: 18px;
+}

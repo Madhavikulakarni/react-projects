@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.contentForm{
+    padding:5rem 0;
+}
+.formControl{
+    display: flex;
+    margin: 30px;
+    position: relative;
+}
+.formControl label{
+    position: absolute;
+    top: -12px;
+    left: 12px;
+    background-color: white;
+    padding: 0 6px;
+}
+.formControl input,
+.formControl textarea{
+    font-size: 16px;
+    padding: 12px 4px;
+    color: gray;
+}
+
+.formControl .inputClass{
+    width: 440px;
+    /* height: 40px; */
+}
+.formControl .inputArea{
+    width: 440px;
+    height: 120px;
+    resize: none;
+}
+.btn{
+    padding: 10px 18px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
